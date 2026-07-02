@@ -1,0 +1,19 @@
+name: egfr_knime
+channels:
+  - knime
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - rdkit
+  - knime-python-base=5.11.0
+  - knime-extension=5.11.0
+  - pyarrow
+  - pip
+  - pip:
+    - deepchem==2.8.0
+    - torch
+    - tensorflow
+    - acpype
+    - dgl
+    - dglgo

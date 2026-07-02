@@ -1,0 +1,53 @@
+# Data files
+*.csv
+*.sdf
+*.mol2
+*.pdb
+*.pdbqt
+
+# GROMACS output
+*.gro
+*.top
+*.itp
+*.mdp
+*.tpr
+*.edr
+*.log
+*.trr
+*.xtc
+*.cpt
+*.ndx
+\#*
+*.bak
+
+# ACPYPE output
+*.acpype/
+*.pkl
+*.frcmod
+
+# GNINA output
+gnina_outputs/
+md_runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.pkl
+/tmp/
+
+# Conda
+*.conda
+*.tar.bz2
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# KNIME
+knime-workspace/
+*.lock
