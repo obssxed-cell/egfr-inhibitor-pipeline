@@ -31,7 +31,7 @@ Generates GAFF2 force field topology files for top hits using ACPYPE. Output
 directories contain ligand.itp, ligand.gro and ligand.top ready for MD simulation.
 
 
-## Resulta
+## Results
 
 ### Example Output
 
