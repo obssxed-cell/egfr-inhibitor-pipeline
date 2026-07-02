@@ -30,6 +30,21 @@ combining CNN affinity, predicted activity and ADMET flags.
 Generates GAFF2 force field topology files for top hits using ACPYPE. Output 
 directories contain ligand.itp, ligand.gro and ligand.top ready for MD simulation.
 
+
+## Resulta
+
+### Example Output
+
+Top 5 hits from screening 58,847 ChEMBL EGFR compounds:
+
+| Rank | MW | LogP | CNNaffinity | CNNscore | rank_score |
+|------|----|------|-------------|----------|------------|
+| 1 | 589.29 | 4.40 | 8.665 | 0.297 | 4.633 |
+| 2 | 541.27 | 4.39 | 8.376 | 0.455 | 4.588 |
+| 3 | 443.18 | 5.44 | 7.797 | 0.835 | 4.298 |
+| 4 | 384.20 | 4.95 | 7.381 | 0.601 | 4.190 |
+| 5 | 443.18 | 5.44 | 7.464 | 0.704 | 4.132 |
+
 ## Requirements
 
 - KNIME Analytics Platform 5.11
