@@ -101,5 +101,5 @@ erlotinib, gefitinib and osimertinib.
 
 ## Author
 
-Sephy — undergraduate Pharmacology, King's College London  
+Instagram: sephyscript
 GitHub: obssxed-cell
